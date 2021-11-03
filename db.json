@@ -1,14 +1,43 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "users": [
+    {
+      "id": 1, 
+     "email": "email1@gmail.com", 
+     "username":"elprimero", 
+     "displayName":"El Primero", 
+     "tagline": "Camaron que se duerme se lo lleva la corriente.", 
+     "biography": "Esta es la biografia de El Primero",
+     "location": "Bordeaux, France",
+     "creationDate": "03-11-2021"
+    },
+    {
+      "id": 2, 
+     "email": "email2@gmail.com", 
+     "username":"elsegundo", 
+     "displayName":"El Segundo", 
+     "tagline": "A caballo regalado no se le miran los dientes.", 
+     "biography": "Esta es la biografia de El Segundo",
+     "location": "Lima, Peru",
+     "creationDate": "02-11-2021"
+    },
+    {
+      "id": 3, 
+     "email": "email3@gmail.com", 
+     "username":"eltercero", 
+     "displayName":"El Tercero", 
+     "tagline": "Ojo por ojo, diente por diente.", 
+     "biography": "Esta es la biografia de El Tercero",
+     "location": "Callao, Peru",
+     "creationDate": "03-11-2021"
+    }
+  ],  
+  "images": [
+    {
+      
+    }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
