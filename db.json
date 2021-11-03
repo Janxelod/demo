@@ -8,7 +8,7 @@
      "tagline": "Camaron que se duerme se lo lleva la corriente.", 
      "biography": "Esta es la biografia de El Primero",
      "location": "Bordeaux, France",
-     "creationDate": "03-11-2021"
+     "creationDate": "01-11-2021"
     },
     {
       "id": 2, 
@@ -42,10 +42,38 @@
       "visibility": "public",
       "publishDate": "2021-11-03T18:25:43.511Z",
       "userLikes": "1-2-3"
+    },
+    {
+      "id": 2,
+      "title": "Second image!",
+      "sourcefile": "https://images.pexels.com/photos/97082/weimaraner-puppy-dog-snout-97082.jpeg",
+      "userId": 2,
+      "description": "This is a gray dog, woof woof!",
+      "tags": "dog-gray-cute",
+      "visibility": "public",
+      "publishDate": "2021-11-02T11:25:43.511Z",
+      "userLikes": "1-2-3"
+    },
+    {
+      "id": 3,
+      "title": "Squiddy di game",
+      "sourcefile": "https://i.giphy.com/media/OfQSQP62d1j9vHxFGy/giphy.webp",
+      "userId": 3,
+      "description": "The series revolves around a contest where 456 players in deep financial debt put their lives at risk to play a series of children's games for the chance to win a ₩45.6 billion prize.",
+      "tags": "green-squid-game",
+      "visibility": "public",
+      "publishDate": "2021-11-03T06:25:15.511Z",
+      "userLikes": "2-1"
     }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "imageId": 1, "userId": 2 },
-    { "id": 2, "body": "some comment", "imageId": 1, "userId": 3 }
+    { "id": 1, "body": "some comment 1", "imageId": 1, "userId": 2 },
+    { "id": 2, "body": "some comment 2", "imageId": 1, "userId": 3 },
+    { "id": 3, "body": "some comment 3", "imageId": 1, "userId": 2 },
+    { "id": 4, "body": "some comment 4", "imageId": 2, "userId": 1 },
+    { "id": 5, "body": "some comment 5", "imageId": 2, "userId": 1 },
+    { "id": 6, "body": "some comment 6", "imageId": 2, "userId": 3 },
+    { "id": 7, "body": "some comment 7", "imageId": 3, "userId": 2 },
+    { "id": 8, "body": "some comment 8", "imageId": 3, "userId": 3 }
   ]
 }
