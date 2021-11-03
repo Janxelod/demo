@@ -33,11 +33,19 @@
   ],  
   "images": [
     {
-      
+      "id": 1,
+      "title": "First image!",
+      "sourcefile": "https://cdn.pixabay.com/photo/2021/08/28/19/13/wheat-field-6581723_960_720.jpg",
+      "userId": 1,
+      "description": "This is a beautiful gree wheat.",
+      "tags": ["plant", "green", "close-up"],
+      "visibility": "public",
+      "publishDate": "2021-11-03T18:25:43.511Z"],
+      "userLikes": [1, 2, 3 ]
     }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "body": "some comment", "imageId": 1, "userId": 2 },
+    { "id": 2, "body": "some comment", "imageId": 1, "userId": 3 }
   ]
 }
