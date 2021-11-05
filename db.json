@@ -87,13 +87,13 @@
     }
   ],
   "comments": [
-    { "id": 1, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 1, "userId": 2, "2021-11-03T11:25:43.511Z"},
-    { "id": 2, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 1, "userId": 3, "2021-11-03T12:25:43.511Z"},
-    { "id": 3, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 1, "userId": 2, "2021-11-03T14:25:43.511Z"},
-    { "id": 4, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 2, "userId": 1, "2021-11-03T11:25:43.511Z"},
-    { "id": 5, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 2, "userId": 1, "2021-11-03T12:25:43.511Z"},
-    { "id": 6, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 2, "userId": 3, "2021-11-03T14:25:43.511Z"},
-    { "id": 7, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 3, "userId": 2, "2021-11-03T11:25:43.511Z"},
-    { "id": 8, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 3, "userId": 3, "2021-11-03T12:25:43.511Z"}
+    { "id": 1, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 1, "userId": 2, "publishDate": "2021-11-03T11:25:43.511Z"},
+    { "id": 2, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 1, "userId": 3, "publishDate": "2021-11-03T12:25:43.511Z"},
+    { "id": 3, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 1, "userId": 2, "publishDate": "2021-11-03T14:25:43.511Z"},
+    { "id": 4, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 2, "userId": 1, "publishDate": "2021-11-03T11:25:43.511Z"},
+    { "id": 5, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 2, "userId": 1, "publishDate": "2021-11-03T12:25:43.511Z"},
+    { "id": 6, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 2, "userId": 3, "publishDate": "2021-11-03T14:25:43.511Z"},
+    { "id": 7, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 3, "userId": 2, "publishDate": "2021-11-03T11:25:43.511Z"},
+    { "id": 8, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 3, "userId": 3, "publishDate": "2021-11-03T12:25:43.511Z"}
   ]
 }
