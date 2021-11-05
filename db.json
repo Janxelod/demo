@@ -44,7 +44,7 @@
       "userLikes": "1-2-3",
       "views": 11,
       "price": 0,
-      categories: [
+      "categories": [
       "Nature and Plants",
       "Place and Travel"],
       "metadata": {
@@ -64,7 +64,7 @@
       "visibility": "public",
       "publishDate": "2021-11-02T11:25:43.511Z",
       "userLikes": "1-2-3",
-      categories: [
+      "categories": [
       "Animal and Pets",
       "Characters and Creatures"],
       "metadata": {
@@ -84,7 +84,7 @@
       "visibility": "public",
       "publishDate": "2021-11-03T06:25:15.511Z",
       "userLikes": "2-1",
-      categories: [
+      "categories": [
       "Characters and Creatures",
       "People"],
       "metadata": {
