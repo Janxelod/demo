@@ -44,6 +44,9 @@
       "userLikes": "1-2-3",
       "views": 11,
       "price": 0,
+      categories: [
+      "Nature and Plants",
+      "Place and Travel"],
       "metadata": {
         "height": 720,
         "width": 480,
@@ -61,6 +64,9 @@
       "visibility": "public",
       "publishDate": "2021-11-02T11:25:43.511Z",
       "userLikes": "1-2-3",
+      categories: [
+      "Animal and Pets",
+      "Characters and Creatures"],
       "metadata": {
         "height": 3456,
         "width": 5184,
@@ -78,6 +84,9 @@
       "visibility": "public",
       "publishDate": "2021-11-03T06:25:15.511Z",
       "userLikes": "2-1",
+      categories: [
+      "Characters and Creatures",
+      "People"],
       "metadata": {
         "height": 480,
         "width": 480,
