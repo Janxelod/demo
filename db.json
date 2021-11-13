@@ -22,7 +22,18 @@
          ],
          "views":100,
          "likes":5,
-         "comments":4
+         "comments":4,
+         "skills":[
+            {
+               "skillId":1
+            },
+            {
+               "skillId":5
+            },
+            {
+               "skillId":6
+            }
+         ]
       },
       {
          "id":2,
@@ -46,7 +57,18 @@
          ],
          "views":100,
          "likes":5,
-         "comments":4
+         "comments":4,
+         "skills":[
+            {
+               "skillId":3
+            },
+            {
+               "skillId":10
+            },
+            {
+               "skillId":15
+            }
+         ]
       },
       {
          "id":3,
@@ -70,7 +92,18 @@
          ],
          "views":100,
          "likes":5,
-         "comments":4
+         "comments":4,
+         "skills":[
+            {
+               "skillId":7
+            },
+            {
+               "skillId":9
+            },
+            {
+               "skillId":14
+            }
+         ]
       }
    ],
    "images":[
@@ -196,6 +229,68 @@
          "imageId":3,
          "userId":3,
          "publishDate":"2021-11-03T12:25:43.511Z"
+      }
+   ],
+   "skills":[
+      {
+         "id":1,
+         "skill":"Programmer"
+      },
+      {
+         "id":2,
+         "skill":"Artist"
+      },
+      {
+         "id":3,
+         "skill":"Animator"
+      },
+      {
+         "id":4,
+         "skill":"Game Designer"
+      },
+      {
+         "id":5,
+         "skill":"Unity 3D"
+      },
+      {
+         "id":6,
+         "skill":"Unreal Engine"
+      },
+      {
+         "id":7,
+         "skill":"Blender"
+      },
+      {
+         "id":8,
+         "skill":"Autodesk 3ds Max"
+      },
+      {
+         "id":9,
+         "skill":"Autodesk Maya"
+      },
+      {
+         "id":10,
+         "skill":"Godot"
+      },
+      {
+         "id":11,
+         "skill":"Photoshop"
+      },
+      {
+         "id":12,
+         "skill":"Gimp"
+      },
+      {
+         "id":13,
+         "skill":"ZBrush"
+      },
+      {
+         "id":14,
+         "skill":"Substance"
+      },
+      {
+         "id":15,
+         "skill":"Paint"
       }
    ]
 }
