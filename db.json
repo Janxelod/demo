@@ -1,108 +1,201 @@
 {
-  "users": [
-    {
-      "id": 1, 
-     "email": "email1@gmail.com", 
-     "username":"elprimero", 
-     "displayName":"El Primero", 
-     "tagline": "Camaron que se duerme se lo lleva la corriente.", 
-     "biography": "Esta es la biografia de El Primero",
-     "location": "Bordeaux, France",
-     "creationDate": "01-11-2021"
-    },
-    {
-      "id": 2, 
-     "email": "email2@gmail.com", 
-     "username":"elsegundo", 
-     "displayName":"El Segundo", 
-     "tagline": "A caballo regalado no se le miran los dientes.", 
-     "biography": "Esta es la biografia de El Segundo",
-     "location": "Lima, Peru",
-     "creationDate": "02-11-2021"
-    },
-    {
-      "id": 3, 
-     "email": "email3@gmail.com", 
-     "username":"eltercero", 
-     "displayName":"El Tercero", 
-     "tagline": "Ojo por ojo, diente por diente.", 
-     "biography": "Esta es la biografia de El Tercero",
-     "location": "Callao, Peru",
-     "creationDate": "03-11-2021"
-    }
-  ],  
-  "images": [
-    {
-      "id": 1,
-      "title": "First image!",
-      "sourcefile": "https://cdn.pixabay.com/photo/2021/08/28/19/13/wheat-field-6581723_960_720.jpg",
-      "userId": 1,
-      "description": "This is a beautiful gree wheat.",
-      "tags": "plant-green-close-up",
-      "visibility": "public",
-      "publishDate": "2021-11-03T18:25:43.511Z",
-      "userLikes": "1-2-3",
-      "views": 11,
-      "price": 0,
-      "categories": [
-      "Nature and Plants",
-      "Place and Travel"],
-      "metadata": {
-        "height": 720,
-        "width": 480,
-        "pixelDensity": 345600,
-        "creationDate": "2020-10-07T06:25:15.511Z"
+   "users":[
+      {
+         "id":1,
+         "email":"email1@gmail.com",
+         "username":"elprimero",
+         "displayName":"El Primero",
+         "tagline":"Camaron que se duerme se lo lleva la corriente.",
+         "biography":"Esta es la biografia de El Primero",
+         "location":"Bordeaux, France",
+         "creationDate":"01-11-2021",
+         "imageLikes":[
+            {
+               "imageId":1
+            },
+            {
+               "imageId":2
+            },
+            {
+               "imageId":3
+            }
+         ],
+         "views":100,
+         "likes":5,
+         "comments":4
+      },
+      {
+         "id":2,
+         "email":"email2@gmail.com",
+         "username":"elsegundo",
+         "displayName":"El Segundo",
+         "tagline":"A caballo regalado no se le miran los dientes.",
+         "biography":"Esta es la biografia de El Segundo",
+         "location":"Lima, Peru",
+         "creationDate":"02-11-2021",
+         "imageLikes":[
+            {
+               "imageId":1
+            },
+            {
+               "imageId":2
+            },
+            {
+               "imageId":3
+            }
+         ],
+         "views":100,
+         "likes":5,
+         "comments":4
+      },
+      {
+         "id":3,
+         "email":"email3@gmail.com",
+         "username":"eltercero",
+         "displayName":"El Tercero",
+         "tagline":"Ojo por ojo, diente por diente.",
+         "biography":"Esta es la biografia de El Tercero",
+         "location":"Callao, Peru",
+         "creationDate":"03-11-2021",
+         "imageLikes":[
+            {
+               "imageId":1
+            },
+            {
+               "imageId":2
+            },
+            {
+               "imageId":3
+            }
+         ],
+         "views":100,
+         "likes":5,
+         "comments":4
       }
-    },
-    {
-      "id": 2,
-      "title": "Second image!",
-      "sourcefile": "https://images.pexels.com/photos/97082/weimaraner-puppy-dog-snout-97082.jpeg",
-      "userId": 2,
-      "description": "This is a gray dog, woof woof!",
-      "tags": "dog-gray-cute",
-      "visibility": "public",
-      "publishDate": "2021-11-02T11:25:43.511Z",
-      "userLikes": "1-2-3",
-      "categories": [
-      "Animal and Pets",
-      "Characters and Creatures"],
-      "metadata": {
-        "height": 3456,
-        "width": 5184,
-        "pixelDensity": 17915904,
-        "creationDate": "2020-02-26T09:12:15.511Z"
+   ],
+   "images":[
+      {
+         "id":1,
+         "title":"First image!",
+         "sourcefile":"https://cdn.pixabay.com/photo/2021/08/28/19/13/wheat-field-6581723_960_720.jpg",
+         "userId":1,
+         "description":"This is a beautiful gree wheat.",
+         "tags":"plant-green-close-up",
+         "visibility":"public",
+         "publishDate":"2021-11-03T18:25:43.511Z",
+         "userLikes":"1-2-3",
+         "views":11,
+         "price":0,
+         "categories":[
+            "Nature and Plants",
+            "Place and Travel"
+         ],
+         "metadata":{
+            "height":720,
+            "width":480,
+            "pixelDensity":345600,
+            "creationDate":"2020-10-07T06:25:15.511Z"
+         }
+      },
+      {
+         "id":2,
+         "title":"Second image!",
+         "sourcefile":"https://images.pexels.com/photos/97082/weimaraner-puppy-dog-snout-97082.jpeg",
+         "userId":2,
+         "description":"This is a gray dog, woof woof!",
+         "tags":"dog-gray-cute",
+         "visibility":"public",
+         "publishDate":"2021-11-02T11:25:43.511Z",
+         "userLikes":"1-2-3",
+         "categories":[
+            "Animal and Pets",
+            "Characters and Creatures"
+         ],
+         "metadata":{
+            "height":3456,
+            "width":5184,
+            "pixelDensity":17915904,
+            "creationDate":"2020-02-26T09:12:15.511Z"
+         }
+      },
+      {
+         "id":3,
+         "title":"Squiddy di game",
+         "sourcefile":"https://i.giphy.com/media/OfQSQP62d1j9vHxFGy/giphy.webp",
+         "userId":3,
+         "description":"The series revolves around a contest where 456 players in deep financial debt put their lives at risk to play a series of children's games for the chance to win a ₩45.6 billion prize.",
+         "tags":"green-squid-game",
+         "visibility":"public",
+         "publishDate":"2021-11-03T06:25:15.511Z",
+         "userLikes":"2-1",
+         "categories":[
+            "Characters and Creatures",
+            "People"
+         ],
+         "metadata":{
+            "height":480,
+            "width":480,
+            "pixelDensity":230400,
+            "creationDate":"2020-02-26T09:12:15.511Z"
+         }
       }
-    },
-    {
-      "id": 3,
-      "title": "Squiddy di game",
-      "sourcefile": "https://i.giphy.com/media/OfQSQP62d1j9vHxFGy/giphy.webp",
-      "userId": 3,
-      "description": "The series revolves around a contest where 456 players in deep financial debt put their lives at risk to play a series of children's games for the chance to win a ₩45.6 billion prize.",
-      "tags": "green-squid-game",
-      "visibility": "public",
-      "publishDate": "2021-11-03T06:25:15.511Z",
-      "userLikes": "2-1",
-      "categories": [
-      "Characters and Creatures",
-      "People"],
-      "metadata": {
-        "height": 480,
-        "width": 480,
-        "pixelDensity": 230400,
-        "creationDate": "2020-02-26T09:12:15.511Z"
+   ],
+   "comments":[
+      {
+         "id":1,
+         "message":"Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.",
+         "imageId":1,
+         "userId":2,
+         "publishDate":"2021-11-03T11:25:43.511Z"
+      },
+      {
+         "id":2,
+         "message":"Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.",
+         "imageId":1,
+         "userId":3,
+         "publishDate":"2021-11-03T12:25:43.511Z"
+      },
+      {
+         "id":3,
+         "message":"Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.",
+         "imageId":1,
+         "userId":2,
+         "publishDate":"2021-11-03T14:25:43.511Z"
+      },
+      {
+         "id":4,
+         "message":"Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.",
+         "imageId":2,
+         "userId":1,
+         "publishDate":"2021-11-03T11:25:43.511Z"
+      },
+      {
+         "id":5,
+         "message":"Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.",
+         "imageId":2,
+         "userId":1,
+         "publishDate":"2021-11-03T12:25:43.511Z"
+      },
+      {
+         "id":6,
+         "message":"Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.",
+         "imageId":2,
+         "userId":3,
+         "publishDate":"2021-11-03T14:25:43.511Z"
+      },
+      {
+         "id":7,
+         "message":"Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.",
+         "imageId":3,
+         "userId":2,
+         "publishDate":"2021-11-03T11:25:43.511Z"
+      },
+      {
+         "id":8,
+         "message":"Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.",
+         "imageId":3,
+         "userId":3,
+         "publishDate":"2021-11-03T12:25:43.511Z"
       }
-    }
-  ],
-  "comments": [
-    { "id": 1, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 1, "userId": 2, "publishDate": "2021-11-03T11:25:43.511Z"},
-    { "id": 2, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 1, "userId": 3, "publishDate": "2021-11-03T12:25:43.511Z"},
-    { "id": 3, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 1, "userId": 2, "publishDate": "2021-11-03T14:25:43.511Z"},
-    { "id": 4, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 2, "userId": 1, "publishDate": "2021-11-03T11:25:43.511Z"},
-    { "id": 5, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 2, "userId": 1, "publishDate": "2021-11-03T12:25:43.511Z"},
-    { "id": 6, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 2, "userId": 3, "publishDate": "2021-11-03T14:25:43.511Z"},
-    { "id": 7, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 3, "userId": 2, "publishDate": "2021-11-03T11:25:43.511Z"},
-    { "id": 8, "message": "Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1 Some comment 1.", "imageId": 3, "userId": 3, "publishDate": "2021-11-03T12:25:43.511Z"}
-  ]
+   ]
 }
