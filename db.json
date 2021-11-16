@@ -201,8 +201,8 @@
          }
       },
       {
-         "id":5
-         "title":"Fifth image!,
+         "id":5,
+         "title":"Fifth image!",
          "sourcefile":"https://images.pexels.com/photos/97082/weimaraner-puppy-dog-snout-97082.jpeg",
          "userId":2,
          "description":"This is a gray dog, woof woof!",
